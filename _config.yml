@@ -1,11 +1,11 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Jalpc"
-description: "Jack's blog,use Jekyll and github pages."
+title: "Feo y princesa se van de boda"
+description: "Este es el comienzo, ven a ver el final"
 keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
 baseurl: "/"
-url: "http://www.jack003.com"
+url: "http://boda.feoyprincesa.es"
 # url: "http://127.0.0.1:4000"
 
 # author
@@ -27,10 +27,9 @@ sections:
     tpl: 'about.html'
     css: ''
 
-  - id: 'career'
-    i18n: 'nav.career'
-    name: 'Career'
-    tpl: 'career.html'
+  - id: 'steps'
+    name: '¿Qué haremos?'
+    tpl: 'steps.html'
     css: 'timeline'
 
   - id: 'skills'
