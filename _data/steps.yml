@@ -1,34 +1,35 @@
 - name: Buscar hotel
-  desc: Esto es cosa vuestra, nosotros os damos las siguientes opciones.
-    Decid que vais de nuestra parte.
+  desc: Esto es cosa vuestra, nosotros os damos varias opciones que podéis
+    encontrar más abajo en esta página. Decid que vais de nuestra parte.
   when: Cuanto antes
   where: Que son Pilares
   icon: fa-bed
 
 - name: Preboda
-  desc: Nos juntamos, picamos algo, bebemos y hablamos.
+  desc: Picamos algo, bebemos y hablamos.
   when: 6 de Octubre a las 21:00
   where: Todavía no sabemos donde
   icon: fa-music
 
-- name: Autobuses de ida
+- name: Autobuses
   desc: Si no queréis ir con vuestro propio vehículo a motor, hemos puesto
     autobuses.
   when: 7 de Octubre a las 12:00
-  where: Entre el Pilar y el río, llevarán cartel
+  where: Por determinar
   icon: fa-bus
 
 - name: Ceremonia y lo que venga
-  desc: Y aquí vendrá lo bueno. Tampoco somos muy originales, ceremonia,
-    comida, bebida, baile y copas. Vuestros churumbeles serán bienvenidos, la
-    nuestra al menos vendrá.
+  desc: Lo que viene a ser el evento en si. Tampoco somos muy originales,
+    ceremonia, comida, sobremesa, baile y copas. Vuestros churumbeles serán
+    bienvenidos, la nuestra al menos irá.
   when: 7 de Octubre a las 13:00
-  where: Finca Mira-Huerta
+  where: Torre Mira-Huerta
   icon: fa-heart
 
-- name: Fin de fiesta y bus de vuelta
-  desc: Todos satisfechos volveremos a nuestros respectivos hogares. Quien
-    quiera. Si no las fiestas os acogeran de forma satisfactoria.
+- name: Fin de fiesta
+  desc: Todos satisfechos volveremos a nuestros respectivos hogares, quien
+    quiera. Si no las fiestas os acogeran de forma satisfactoria. Los autobuses
+    que van, también vuelven.
   when: 7 de Octubre a las 23:00
   where: En el mismo sitio, para que movernos
   icon: fa-hourglass-end
