@@ -1,0 +1,22 @@
+- name: Torre Mira-Huerta
+  address: 'Camino de San Antonio, 25, 50013 Zaragoza'
+  number: '677 824 639'
+  website: 'http://torremirahuerta.com/'
+
+- name: Hotel Alfonso
+  address: 'Coso, 15-17-19, 50003 Zaragoza'
+  number: '976 237 700'
+  website: 'http://www.palafoxhoteles.com/es/hoteles-en-zaragoza/hotel-alfonso'
+  email: 'hotelalfonso@palafoxhoteles.com'
+
+- name: Hotel Goya
+  address: 'Cinco de Marzo, 5, 50004 Zaragoza'
+  number: '976 229 331'
+  website: 'http://www.palafoxhoteles.com/es/hoteles-en-zaragoza/hotel-goya'
+  email: 'hotelgoya@palafoxhoteles.com'
+
+- name: Hotel Oriente
+  address: 'Coso, 11-13, 50003 Zaragoza'
+  number: '976 203 282'
+  website: 'http://www.hotel-oriente.com/'
+  email: 'reservas@hotel-oriente.com'
