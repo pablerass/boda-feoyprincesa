@@ -6,14 +6,15 @@
   icon: fa-bed
 
 - name: Preboda
-  desc: Picamos algo, bebemos y hablamos.
-  when: 6 de Octubre a las 21:00
+  desc: Picamos algo, bebemos y charlamos. Si alguien quiere ir con resaca al
+    día siguente, es su elección. Nosotros nos retiraremos pronto.
+  when: 6 de Octubre a partir de las 20:30
   where: Todavía no sabemos donde
   icon: fa-music
 
 - name: Autobuses
   desc: Si no queréis ir con vuestro propio vehículo a motor, hemos puesto
-    autobuses.
+    autobuses. De puerta a puerta y con la seguridad de que no llegaréis tarde.
   when: 7 de Octubre a las 12:00
   where: Por determinar
   icon: fa-bus
@@ -21,15 +22,15 @@
 - name: Ceremonia y lo que venga
   desc: Lo que viene a ser el evento en si. Tampoco somos muy originales,
     ceremonia, comida, sobremesa, baile y copas. Vuestros churumbeles serán
-    bienvenidos, la nuestra al menos irá.
+    bienvenidos, la nuestra al menos irá. Etiqueta opcional.
   when: 7 de Octubre a las 13:00
   where: Torre Mira-Huerta
   icon: fa-heart
 
 - name: Fin de fiesta
   desc: Todos satisfechos volveremos a nuestros respectivos hogares, quien
-    quiera. Si no las fiestas os acogeran de forma satisfactoria. Los autobuses
-    que van, también vuelven.
+    quiera. Si no, las fiestas os acogeran para que continuéis hasta que os
+    aguante el cuerpo. Los autobuses que van, también vuelven.
   when: 7 de Octubre a las 23:00
   where: En el mismo sitio, para que movernos
   icon: fa-hourglass-end

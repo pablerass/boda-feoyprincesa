@@ -11,12 +11,12 @@
   percentage: 0
 
 - name: Traje feo
-  percentage: 100
-
-- name: Vestido princesita
-  percentage: 0
+  percentage: 85
 
 - name: Vestido princesa
+  percentage: 0
+
+- name: Vestido princesita
   percentage: 0
 
 - name: Fotógrafo

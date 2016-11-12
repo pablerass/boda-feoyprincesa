@@ -10,21 +10,20 @@ url: "http://boda.feoyprincesa.es"
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'me@jack003.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'
-  desc: 'I am a Full Stack engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel.'
+  name: 'Feo y princesa'
+  #first_name: 'Jia'
+  #last_name: 'Kun'
+  #email: 'me@jack003.com'
+  #facebook_username: 'jiakunnj'
+  #github_username: 'Jack614'
+  #head_img: 'static/img/landing/Jack.jpg'
+  desc: ''
 
 # sections
 sections:
-  - id: 'about-me'
-    i18n: 'nav.about_me'
-    name: 'About'
-    tpl: 'about.html'
+  - id: 'us'
+    name: 'Nosotros'
+    tpl: 'us.html'
     css: ''
 
   - id: 'steps'
@@ -42,15 +41,14 @@ sections:
     tpl: 'progress.html'
     css: 'team'
 
-#  - id: 'projects'
-#    i18n: 'nav.projects'
-#    name: 'Projects'
-#    tpl: 'projects.html'
-#    css: 'project'
-
   - id: 'places'
     name: 'Lugares'
     tpl: 'places.html'
+    css: 'project'
+
+  - id: 'contact'
+    name: 'Contacto'
+    tpl: 'contact.html'
     css: 'contact'
 
 # localization
