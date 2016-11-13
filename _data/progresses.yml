@@ -4,9 +4,6 @@
 - name: Transporte
   percentage: 25
 
-- name: Invitaciones
-  percentage: 35
-
 - name: Preboda
   percentage: 0
 
@@ -14,9 +11,6 @@
   percentage: 85
 
 - name: Vestido princesa
-  percentage: 0
-
-- name: Vestido princesita
   percentage: 0
 
 - name: Fotógrafo
@@ -28,8 +22,5 @@
 - name: Menús
   percentage: 15
 
-- name: Selección de música
+- name: Música
   percentage: 30
-
-- name: Viaje
-  percentage: 0
