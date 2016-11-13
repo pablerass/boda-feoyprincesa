@@ -1,20 +1,11 @@
-- name: Blog
-  href: '/blog/'
+- name: Todas
+  href: '/news/'
 
-- name: Python
-  href: '/python/'
+- name: Actualizaciones
+  href: '/updates/'
 
-- name: Linux
-  href: '/linux/'
+- name: Fotos y vídeos
+  href: '/media/'
 
-- name: HTML
-  href: '/html/'
-
-- name: Database
-  href: '/database/'
-
-- name: Mac
-  href: '/mac/'
-
-- name: Life
-  href: '/life/'
+- name: Lo demás
+  href: '/other/'
