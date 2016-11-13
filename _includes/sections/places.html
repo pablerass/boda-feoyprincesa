@@ -10,25 +10,38 @@
             {% assign loopindex = forloop.index | modulo: 2 %}
             {% if forloop.last %}
                 {% if forloop.last == forloop.first %}
-            <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+            <div class="col-sm-6 wow col-sm-offset-3 zoomIn m-b-lg">
                 {% else %}
-            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %} m-b-lg">
                 {% endif %}
             {% else %}
-            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %} m-b-lg">
             {% endif %}
-              <div class="team-member">
-                  <img src="{{ place.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                  <h4><a href="{{ place.website }}" target="blank"><span class="navy">{{ place.name }}</a></span></h4>
-                  <p>{{ place.address }}</span></p>
-              </div>
-          </div>
+                <div class="team-member">
+                    <!--<img src="{{ place.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">-->
+                    <h4><a href="{{ place.website }}" target="blank"><span class="navy">{{ place.name }}</a></span></h4>
+                    {{ place.address }}
+                    <p>{{ place.number }}</p>
+                    <ul class="list-inline social-icon">
+                        <li><a href="{{ place.website }}" target="blank"><i class="fa fa-link"></i></a>
+                        </li>
+                        <li><a href="mailto:{{ place.email }}"><i class="fa fa-envelope-o"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
       {% endfor %}
     </div>
+    {% for comment in site.data.comments.places %}
+    {% if forloop.first %}
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-           <i>No ponemos peluquerías porque vuestros pelos serán bienvenidos tal y cómo son.</i>
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+    {% endif %}
+           <p><i>{{ comment }}</i></p>
+    {% if forloop.last %}
         </div>
     </div>
+    {% endif %}
+    {% endfor %}
 </div>
 <br>

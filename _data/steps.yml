@@ -22,7 +22,7 @@
 - name: Ceremonia y lo que venga
   desc: Lo que viene a ser el evento en si. Tampoco somos muy originales,
     ceremonia, comida, sobremesa, baile y copas. Vuestros churumbeles serán
-    bienvenidos, la nuestra al menos irá. Etiqueta opcional.
+    bienvenidos. Etiqueta opcional.
   when: 7 de Octubre a las 13:00
   where: Torre Mira-Huerta
   icon: fa-heart
