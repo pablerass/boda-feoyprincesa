@@ -9,6 +9,16 @@ baseurl: "/"
 url: "http://boda.feoyprincesa.es"
 # url: "http://127.0.0.1:4000"
 
+feo:
+  name: Feo
+  real_name: Pablo
+  image: static/img/feo.jpg
+
+princesa:
+  name: Princesa
+  real_name: Bea
+  image: static/img/princesa.jpg
+
 # sections
 sections:
   - id: 'us'
