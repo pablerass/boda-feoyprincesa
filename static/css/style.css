@@ -1,7 +1,4 @@
-/*@import url("http://fonts.useso.com/css?family=Open+Sans:300,400,600,700");*/
-/*@import url("http://fonts.useso.com/css?family=Roboto:400,300,500,700");*/
 @import url("./open_sans.min.css");
-@import url("./roboto.min.css");
 
 h1,
 h2,
@@ -158,7 +155,6 @@ h5 {
 }
 .nav-header {
   padding: 33px 25px;
-  background: url("patterns/header-profile.png") no-repeat;
 }
 .pace-done .nav-header {
   transition: all 0.4s;
@@ -3311,9 +3307,6 @@ body.full-height-layout #page-wrapper {
 }
 #page-wrapper {
   min-height: auto;
-}
-body.boxed-layout {
-  background: url('patterns/shattered.png');
 }
 body.boxed-layout #wrapper {
   background-color: #2f4050;
@@ -6705,10 +6698,28 @@ body.landing-page {
   width: 100%;
 }
 .landing-page .header-back.one {
-  background: url('../img/landing/header_one.jpg') 50% 0 no-repeat;
+  background: url('../img/landing/header_1.jpg') 50% 0 no-repeat;
+  background-size: cover;
 }
 .landing-page .header-back.two {
-  background: url('../img/landing/header_two.jpg') 50% 0 no-repeat;
+  background: url('../img/landing/header_2.jpg') 50% 0 no-repeat;
+  background-size: cover;
+}
+.landing-page .header-back.three {
+  background: url('../img/landing/header_3.jpg') 50% 0 no-repeat;
+  background-size: cover;
+}
+.landing-page .header-back.four {
+  background: url('../img/landing/header_4.jpg') 50% 0 no-repeat;
+  background-size: cover;
+}
+.landing-page .header-back.five {
+  background: url('../img/landing/header_5.jpg') 50% 0 no-repeat;
+  background-size: cover;
+}
+.landing-page .header-back.six {
+  background: url('../img/landing/header_6.jpg') 50% 0 no-repeat;
+  background-size: cover;
 }
 .landing-page .carousel {
   height: 470px;
@@ -6786,7 +6797,7 @@ body.landing-page {
   top: 150px;
 }
 .landing-page .carousel-indicators {
-  padding-right: 60px;
+  padding-right: 0px;
 }
 .landing-page .carousel-caption h1 {
   font-weight: 700;
@@ -6909,7 +6920,9 @@ body.landing-page {
   padding-top: 80px;
   padding-bottom: 90px;
   background-color: #3385FF;
-  background-image: url('../img/landing/avatar_all.png');
+  background-image: url('../img/landing/news_bg.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 .landing-page .big-icon {
   font-size: 56px !important;
@@ -6918,7 +6931,6 @@ body.landing-page {
   color: #3385FF !important;
 }
 .landing-page .contact {
-  background-image: url('../img/landing/word_map.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   margin-top: 60px;

@@ -1,6 +1,6 @@
 <div class="search-tool"
       style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px; opacity: 0.95; background-color: #111111; z-index: 9999; display: none;">
-    <input type="text" class="form-control search-content" id="search-content" style="position: fixed; top: 60px" placeholder="Search Blog">
+    <input type="text" class="form-control search-content" id="search-content" style="position: fixed; top: 60px" placeholder="Search News">
 
     <div style="position: fixed; top: 16px; right: 16px; z-index: 9999;">
         <img src="/search/img/cb-close.png" id="close-btn"/>
@@ -25,7 +25,7 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="page-scroll" href="/blog/">{{ site.index.home }}</a></li>
+                        <li><a class="page-scroll" href="/news/">{{ site.index.home }}</a></li>
                         {% for tag in site.data.news %}
                             {% if page.title == tag.name %}
                             <li class="active">
@@ -48,27 +48,34 @@
     <ol class="carousel-indicators">
         <li data-target="#inSlider" data-slide-to="0" class="active"></li>
         <li data-target="#inSlider" data-slide-to="1"></li>
+        <li data-target="#inSlider" data-slide-to="2"></li>
+        <li data-target="#inSlider" data-slide-to="3"></li>
+        <li data-target="#inSlider" data-slide-to="4"></li>
+        <li data-target="#inSlider" data-slide-to="5"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <div class="container">
-                <div class="carousel-caption">
-                </div>
-                <div class="carousel-image wow zoomIn">
-                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
             <div class="header-back one"></div>
-
         </div>
         <div class="item">
-            <div class="container">
-                <div class="carousel-caption blank">
-                </div>
-            </div>
             <!-- Set background for slide in css -->
             <div class="header-back two"></div>
+        </div>
+        <div class="item">
+            <!-- Set background for slide in css -->
+            <div class="header-back three"></div>
+        </div>
+        <div class="item">
+            <!-- Set background for slide in css -->
+            <div class="header-back four"></div>
+        </div>
+        <div class="item">
+            <!-- Set background for slide in css -->
+            <div class="header-back five"></div>
+        </div>
+        <div class="item">
+            <!-- Set background for slide in css -->
+            <div class="header-back six"></div>
         </div>
     </div>
     <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
