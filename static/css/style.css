@@ -6699,27 +6699,21 @@ body.landing-page {
 }
 .landing-page .header-back.one {
   background: url('../img/landing/header_1.jpg') 50% 0 no-repeat;
-  background-size: cover;
 }
 .landing-page .header-back.two {
   background: url('../img/landing/header_2.jpg') 50% 0 no-repeat;
-  background-size: cover;
 }
 .landing-page .header-back.three {
   background: url('../img/landing/header_3.jpg') 50% 0 no-repeat;
-  background-size: cover;
 }
 .landing-page .header-back.four {
   background: url('../img/landing/header_4.jpg') 50% 0 no-repeat;
-  background-size: cover;
 }
 .landing-page .header-back.five {
   background: url('../img/landing/header_5.jpg') 50% 0 no-repeat;
-  background-size: cover;
 }
 .landing-page .header-back.six {
   background: url('../img/landing/header_6.jpg') 50% 0 no-repeat;
-  background-size: cover;
 }
 .landing-page .carousel {
   height: 470px;
