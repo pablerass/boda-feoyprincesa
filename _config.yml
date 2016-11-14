@@ -7,7 +7,6 @@ description: "Este es el comienzo, ven a ver el final"
 keywords: "Boda,Feo,Princesa,github,gh-pages"
 baseurl: "/"
 url: "http://boda.feoyprincesa.es"
-# url: "http://127.0.0.1:4000"
 
 feo:
   name: Feo

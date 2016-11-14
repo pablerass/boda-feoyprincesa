@@ -23,6 +23,11 @@ permalink: /
                       <a class="page-scroll" href="#{{ section.id }}">{{ section.name }}</a>
                     </li>
                 {% endfor %}
+                    <li>
+                      <a class="btn btn-sm" href="{{ "feed.xml" | prepend: site.baseurl }}">
+                        <i class="fa fa-rss"></i>
+                      </a>
+                    </li>
                 </ul>
             </div>
         </div>
