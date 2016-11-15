@@ -8,11 +8,11 @@
     <div class="row features-block">
         {% for progress in site.data.progresses %}
             {% assign loopindex = forloop.index | modulo: 2 %}
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-3 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+        <div class="row progress-bar-row">
+            <div class="col-lg-1 col-lg-offset-2 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
                 <p>{{ progress.name }}</p>
             </div>
-            <div class="col-lg-5 wow {% if loopindex == 1 %} fadeInRight {% else %} fadeInLeft {% endif %}">
+            <div class="col-lg-6 wow {% if loopindex == 1 %} fadeInRight {% else %} fadeInLeft {% endif %}">
                 <div class="progress progress-bar-default">
                     <div style="width: {{ progress.percentage }}%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="{{ progress.percentage }}" role="progressbar" class="progress-bar">
                     </div>

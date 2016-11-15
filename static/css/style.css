@@ -3897,6 +3897,10 @@ table.table-mail tr td {
   border-color: #ed5565;
   color: #ffffff;
 }
+.progress-bar-row {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .progress-bar {
   background-color: #3385FF;
 }
