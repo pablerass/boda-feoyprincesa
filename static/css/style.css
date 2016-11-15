@@ -6697,23 +6697,45 @@ body.landing-page {
   height: 470px;
   width: 100%;
 }
-.landing-page .header-back.one {
-  background: url('../img/landing/header_1.jpg') 50% 0 no-repeat;
+@media only screen and (min-width: 600px) {
+  .landing-page .header-back.one {
+    background: url('../img/landing/header_1.jpg') 50% 0 no-repeat;
+  }
+  .landing-page .header-back.two {
+    background: url('../img/landing/header_2.jpg') 50% 0 no-repeat;
+  }
+  .landing-page .header-back.three {
+    background: url('../img/landing/header_3.jpg') 50% 0 no-repeat;
+  }
+  .landing-page .header-back.four {
+    background: url('../img/landing/header_4.jpg') 50% 0 no-repeat;
+  }
+  .landing-page .header-back.five {
+    background: url('../img/landing/header_5.jpg') 50% 0 no-repeat;
+  }
+  .landing-page .header-back.six {
+    background: url('../img/landing/header_6.jpg') 50% 0 no-repeat;
+  }
 }
-.landing-page .header-back.two {
-  background: url('../img/landing/header_2.jpg') 50% 0 no-repeat;
-}
-.landing-page .header-back.three {
-  background: url('../img/landing/header_3.jpg') 50% 0 no-repeat;
-}
-.landing-page .header-back.four {
-  background: url('../img/landing/header_4.jpg') 50% 0 no-repeat;
-}
-.landing-page .header-back.five {
-  background: url('../img/landing/header_5.jpg') 50% 0 no-repeat;
-}
-.landing-page .header-back.six {
-  background: url('../img/landing/header_6.jpg') 50% 0 no-repeat;
+@media only screen and (max-width: 600px) {
+  .landing-page .header-back.one {
+    background: url('../img/landing/header_1_small.jpg') 50% 0 no-repeat;
+  }
+  .landing-page .header-back.two {
+    background: url('../img/landing/header_2_small.jpg') 50% 0 no-repeat;
+  }
+  .landing-page .header-back.three {
+    background: url('../img/landing/header_3_small.jpg') 50% 0 no-repeat;
+  }
+  .landing-page .header-back.four {
+    background: url('../img/landing/header_4_small.jpg') 50% 0 no-repeat;
+  }
+  .landing-page .header-back.five {
+    background: url('../img/landing/header_5_small.jpg') 50% 0 no-repeat;
+  }
+  .landing-page .header-back.six {
+    background: url('../img/landing/header_6_small.jpg') 50% 0 no-repeat;
+  }
 }
 .landing-page .carousel {
   height: 470px;
