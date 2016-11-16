@@ -11,12 +11,12 @@ url: "http://boda.feoyprincesa.es"
 feo:
   name: Feo
   real_name: Pablo
-  image: static/img/feo.jpg
+  image: static/img/landing/feo.jpg
 
 princesa:
   name: Princesa
   real_name: Bea
-  image: static/img/princesa.jpg
+  image: static/img/landing/princesa.jpg
 
 # sections
 sections:
@@ -51,7 +51,7 @@ sections:
     css: 'contact'
 
 # blog img path
-img_path: 'static/img/blog'
+img_path: 'static/img/news'
 
 #disqus:
 #  name: feoyprincesa

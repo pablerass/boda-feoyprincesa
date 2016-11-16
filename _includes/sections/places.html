@@ -18,15 +18,18 @@
             <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %} m-b-lg">
             {% endif %}
                 <div class="team-member">
-                    <!--<img src="{{ place.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">-->
                     <h4><a href="{{ place.website }}" target="blank"><span class="navy">{{ place.name }}</a></span></h4>
                     {{ place.address }}
                     <p>{{ place.number }}</p>
                     <ul class="list-inline social-icon">
+                        {% if place.website %}
                         <li><a href="{{ place.website }}" target="blank"><i class="fa fa-link"></i></a>
                         </li>
+                        {% endif %}
+                        {% if place.email %}
                         <li><a href="mailto:{{ place.email }}"><i class="fa fa-envelope-o"></i></a>
                         </li>
+                        {% endif %}
                     </ul>
                 </div>
             </div>
