@@ -53,9 +53,8 @@ sections:
 # blog img path
 img_path: 'static/img/news'
 
-#disqus:
-#  name: feoyprincesa
-#  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
+disqus:
+  name: boda-feoyprincesa
 
 # google analytics
 #ga:
