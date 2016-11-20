@@ -1,1 +1,79 @@
-@media screen and (min-width:768px){.dropdown-menu{float:none;font-size:20px;width:70%;margin:0 15%}.search-tool ul{width:70%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.search-content{width:70%;margin:0 15%;position:absolute;top:13%;left:auto;right:auto;font-size:22px;height:50px;background-color:#eee;color:black;opacity:1.0}}@media screen and (max-width:767px){.dropdown-menu{float:none;font-size:20px;width:96%;margin:0 2%}.search-tool ul{width:96%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.search-content{width:96%;margin:0 2%;position:absolute;top:10%;left:auto;right:auto;font-size:22px;height:50px;background-color:#eee;color:black;opacity:1.0}}
+.search-tool {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.95;
+    background-color: #111111;
+    z-index: 9999;
+    display: none;
+}
+.search-button {
+    z-index: 9999;
+}
+.search-top {
+    position: fixed;
+    right: 16px;
+    top: 16px;
+}
+.search-bottom {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+    .dropdown-menu {
+        float: none;
+        font-size: 20px;
+        width: 70%;
+        margin: 0 15%
+    }
+    .search-tool {
+        width: 70%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+    .search-content {
+        position: fixed;
+        top: 60px;
+        width: 70%;
+        margin: 0 15%;
+        left: auto;
+        right: auto;
+        font-size: 22px;
+        height: 50px;
+        background-color: #eee;
+        color: black;
+        opacity: 1.0
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .dropdown-menu {
+        float: none;
+        font-size: 20px;
+        width: 96%;
+        margin: 0 2%
+    }
+    .search-tool {
+        width: 96%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+    .search-content {
+        position: fixed;
+        top: 60px;
+        width: 96%;
+        margin: 0 2%;
+        left: auto;
+        right: auto;
+        font-size: 22px;
+        height: 50px;
+        background-color: #eee;
+        color: black;
+        opacity: 1.0
+    }
+}
