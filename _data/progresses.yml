@@ -1,26 +1,26 @@
 - name: Alojamiento
-  percentage: 90
+  percentage: 100
 
 - name: Transporte
   percentage: 25
 
 - name: Preboda
-  percentage: 0
+  percentage: 20
 
 - name: Traje feo
   percentage: 85
 
 - name: Vestido princesa
-  percentage: 0
+  percentage: 40
 
 - name: Fotógrafo
-  percentage: 0
+  percentage: 25
 
 - name: Ceremonia
   percentage: 50
 
 - name: Menús
-  percentage: 15
+  percentage: 25
 
 - name: Música
   percentage: 30
