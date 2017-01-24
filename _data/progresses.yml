@@ -13,6 +13,9 @@
 - name: Vestido princesa
   percentage: 40
 
+- name: Vestido cosita
+  percentage: 0
+
 - name: Fotógrafo
   percentage: 25
 
