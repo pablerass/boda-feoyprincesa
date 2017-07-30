@@ -8,29 +8,31 @@
 - name: Preboda
   desc: Picamos algo, bebemos y charlamos. Si alguien quiere ir con resaca al
     día siguente, es su elección. Nosotros nos retiraremos pronto.
-  when: 6 de Octubre tarde-noche
-  where: Todavía no sabemos donde
+  when: 6 de Octubre 21:30
+  where: Terraza del Hotel Alfonso
   icon: fa-music
 
 - name: Autobuses
   desc: Si no queréis ir con vuestro propio vehículo a motor, hemos puesto
     autobuses. De puerta a puerta y con la seguridad de que no llegaréis tarde.
-  when: 7 de Octubre por la mañana
-  where: Por determinar
+  when: 7 de Octubre 12:15
+  where: Enfrente del Hotel Alfonso
   icon: fa-bus
 
 - name: Ceremonia y lo que venga
   desc: Lo que viene a ser el evento en si. Tampoco somos muy originales,
     ceremonia, comida, sobremesa, baile y copas. Vuestros churumbeles serán
     bienvenidos. Etiqueta opcional.
-  when: 7 de Octubre por la mañana
+  when: 7 de Octubre 13:00
   where: Torre Mira-Huerta
   icon: fa-heart
 
 - name: Fin de fiesta
   desc: Todos satisfechos volveremos a nuestros respectivos hogares, quien
     quiera. Si no, las fiestas os acogeran para que continuéis hasta que os
-    aguante el cuerpo. Los autobuses que van, también vuelven.
-  when: 7 de Octubre por la noche
+    aguante el cuerpo. Los autobuses que van, también vuelven. Habrá uno
+    anterior a las 21:00 en primera sesión para aquellos que hayan tenido
+    suficiente.
+  when: 8 de Octubre 0:00
   where: En el mismo sitio, para que movernos
   icon: fa-hourglass-end

@@ -5,25 +5,25 @@
   percentage: 25
 
 - name: Preboda
-  percentage: 20
+  percentage: 80
 
 - name: Traje feo
-  percentage: 85
+  percentage: 90
 
 - name: Vestido princesa
-  percentage: 40
+  percentage: 90
 
 - name: Vestido cosita
   percentage: 0
 
 - name: Fotógrafo
-  percentage: 25
+  percentage: 75
 
 - name: Ceremonia
-  percentage: 50
+  percentage: 60
 
 - name: Menús
-  percentage: 25
+  percentage: 85
 
 - name: Música
-  percentage: 30
+  percentage: 25
