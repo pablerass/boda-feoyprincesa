@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="169.33333mm"
+   height="169.33333mm"
+   viewBox="0 0 599.99996 599.99998"
+   id="svg4267"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="logo-background.svg"
+   inkscape:export-filename="/home/bleras/workshops/boda/news_bg.png"
+   inkscape:export-xdpi="51.058842"
+   inkscape:export-ydpi="51.058842">
+  <defs
+     id="defs4269" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.37558384"
+     inkscape:cx="259.06112"
+     inkscape:cy="316.7258"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1325"
+     inkscape:window-height="744"
+     inkscape:window-x="41"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4272">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(209.34081,-446.60621)">
+    <circle
+       style="fill:none;fill-opacity:0.19607843;stroke:#ffffff;stroke-width:12.07854366;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.11764706"
+       id="path4848"
+       cx="90.659187"
+       cy="746.6062"
+       r="293.96072" />
+    <g
+       id="g4228-9"
+       transform="matrix(0.49016833,0,0,0.49251477,-176.21137,481.6894)"
+       style="fill:#ffffff;fill-opacity:0.11764706">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4202-1"
+         y="811.72009"
+         x="68.316345"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:821.09155273px;line-height:125%;font-family:Caladea;-inkscape-font-specification:'Caladea Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.11764706;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="811.72009"
+           x="68.316345"
+           id="tspan4204-4"
+           sodipodi:role="line">F</tspan></text>
+      <text
+         transform="scale(-1,1)"
+         sodipodi:linespacing="125%"
+         id="text4206-9"
+         y="811.72009"
+         x="-1021.3983"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:821.09155273px;line-height:125%;font-family:Caladea;-inkscape-font-specification:'Caladea Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.11764706;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Caladea;-inkscape-font-specification:'Caladea Bold';fill:#ffffff;fill-opacity:0.11764706"
+           y="811.72009"
+           x="-1021.3983"
+           id="tspan4208-1"
+           sodipodi:role="line">P</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:201.71763611px;line-height:125%;font-family:Caladea;-inkscape-font-specification:'Caladea Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.11764706;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="14.424957"
+       y="987.74084"
+       id="text4210-0"
+       sodipodi:linespacing="125%"
+       transform="scale(0.99761506,1.0023906)"><tspan
+         sodipodi:role="line"
+         id="tspan4212-7"
+         x="14.424957"
+         y="987.74084">&amp;</tspan></text>
+  </g>
+</svg>
